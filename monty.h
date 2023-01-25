@@ -60,6 +60,10 @@ char *parse_line(char *line, stack_t **stack, unsigned int line_number);
 typedef void (*instruct_func)(stack_t **stack, unsigned int line_number);
 instruct_func get_op_func(char *str);
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> c27cd86ea7b86007358e0f2ede67f018bdf53b5b
 /*Fuxntions Monty*/
 void _pall(stack_t **stack, unsigned int line_number);
 void _push(stack_t **stack, unsigned int line_number);
